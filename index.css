@@ -1,0 +1,447 @@
+/* une le connaissance de la maquette faite, on procede au telechargement des font a utiliser  */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+  /* l'etape de la variabitation  */
+  :root{
+    --color-primary: #2563EB;
+    --color-secondary: #475569;
+    --font-family: 'Roboto', sans-serif;
+    --margin-left: 5rem
+  }
+  /* renitialisation des valeur par defaut du navigateur */
+  *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 10px;
+    font-family: var(--font-family);
+
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  /* debut du codage  */
+  /* nav barre */
+  nav{
+    width: 100%;
+    height: 8.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 0.1rem var(--color-secondary);
+  }
+  h1{
+font-size: 3.2rem;
+font-weight: 70rem;
+margin-top: 2rem;
+margin-left: var(--margin-left);
+  }
+  .nav-but{
+    display: none;
+    background: url(./images/Buttons\ Group4.png);
+    background-size: cover;
+  }
+  .nav-lien-2{
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+  }
+  select{
+    width: 1.5rem;
+  }
+  label{
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+  }
+  .nav-lien-1{
+    font-size: 1.5rem;
+  }
+  a{
+    color: #000;
+  }
+  .bouton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    padding: 1.2rem;
+    border-radius: 1rem;
+    gap: 3rem;
+    width: 15.6rem;
+    height: 2.7rem;
+    margin-right: 3rem;
+  }
+  .login{
+    color: var(--color-primary);
+    font-size: 1.6rem;
+  }
+  h6{
+    color: #fff;
+    font-size: 1.6rem ;
+    text-decoration: solid;
+  }
+  .nav-button{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .section1{
+    display: flex;
+    gap: 5rem;
+   margin: 9rem;
+  }
+  .section1-note{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    /* width: 60.5rem; */
+    height: 44rem;
+  }
+  a{
+    text-decoration: none;
+  }
+  .section1-note-lien{
+    background-color: #47556932;
+    align-items: center;
+    display: flex;
+    width: 52.5rem;
+    height: 3.8rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+  
+  }
+  .note-lien{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.8rem;
+  }
+  h2{
+    font-family: var(--font-family);
+    font-size: 7.2rem;
+    /* color: var(--color-secondary); */
+    width: 60rem;
+    height: 15.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+  }
+  span{
+    font-family: var(--font-family);
+    font-size: 1.8rem;
+    color: var(--color-secondary);
+    width: 60rem;
+    height: 44rem;
+    
+  }
+  .section1-note-input{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  .input1{
+    display: flex;
+    width: 30rem;
+    height: 4.8rem;
+    border: solid var(--color-secondary) 0.1rem;
+    border-radius: 0.8rem;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 2rem;
+  }
+  .lien1{
+    
+    width: 8.5rem;
+    height: 2rem;
+    background-size: cover;
+  }
+  .lien2{
+   
+    width: 9.5rem;
+    height: 2rem;
+    background-size: cover;
+  }
+  .lien3{
+    
+    width: 9.5rem;
+    height: 2rem;
+    background-size: cover;
+  }
+  .lien4{
+    
+    width: 8.5rem;
+    height: 2rem;
+    background-size: cover;
+  }
+  .section1-image{
+    background-image: url(./images/Desktop.jpg);
+    background-size: cover;
+    width: 60rem;
+    height: 44rem;
+    margin-right: 3rem;
+  }
+  .section2{
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+    margin-left: var(--margin-left);
+  }
+  .section2-image{
+    background-image: url(./images/Left.jpg);
+    background-size: cover;
+    width: 60rem;
+    height: 44rem;
+  }
+  .section2-note{
+    gap: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    width: 70rem;
+    height: 44rem;
+    margin-right: 5rem;
+  }
+  .section2-note-image{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+  }
+  h5{
+    font-size: 1.6rem;
+    color: var(--color-primary);
+  }
+  h3{
+    font-family: var(--font-family);
+    font-size: 5.6rem;
+    width: 45rem;
+  }
+  .section3{
+    display: flex;
+    margin-left: var(--margin-left);
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+  .section3-image{
+    background-image: url(./images/Right.jpg);
+    background-size: cover;
+    width: 60rem;
+    height: 44rem;
+    padding-bottom: 5rem
+    
+  }
+  .section4{
+    background-image:linear-gradient(to bottom, #ba15af,#cc319b47),url(./images/molgofier.jpeg);
+    background-size: cover;
+    border-radius: 1.5rem;
+    margin-top: 9rem;
+    padding-bottom: 3rem;
+    width: 30;
+    height: 49.6rem;
+    margin-left: var(--margin-left);
+    margin-right: 5rem;
+    display: flex;
+    margin-bottom: 5rem;
+    gap: 3rem;
+  }
+  .section4-color{
+    color: #fff;
+    gap: 2rem;
+  }
+  .section4-note{
+    gap: 6rem;
+    width: 60rem;
+  }
+  
+  .section4-1{
+    flex: 1;
+  }
+  .section4-2{
+    flex: 1;
+    margin-right: 4rem;
+    margin-top: 9rem;
+    width: 52rem;
+    height: 33rem;
+    gap: 9rem;
+    text-align: start;
+  }
+  .section5{
+    display: flex;
+    margin-left: var(--margin-left);
+    gap: 12rem;
+    margin-right: 5rem;
+    
+  }
+  .section5-note{
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+    height: 44rem;
+    gap: 4rem;
+  }
+  .section5-note-lien{
+    display: flex;
+    width: 60rem;
+    height: 4.8rem;
+  }
+  .note{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .lien{
+    border: solid 0.1rem #475569;
+    /* border-top-left-radius: 2rem ; */
+    font-size: 1.6rem;
+    width: 20rem;
+    padding-top: 1.5rem;
+    text-align: center;
+
+  }
+  .section5-image{
+    background-image: url(./images/Video.png);
+    background-size: cover;
+    border-radius: 1rem;
+    width: 60rem;
+    height: 56.5rem;
+
+  }
+  .section6{
+    background: linear-gradient(99.45deg, #312E81 0%, #1E40AF 0.01%, #1E3A8A 46%, #701A75 96.97%);
+    height: 39.5rem;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 3rem;
+    margin-left: var(--margin-left);
+    padding: 8rem 5rem 0 5rem ;
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-right: 5rem;
+
+  }
+  .h3{
+    margin-left: 25rem;
+    width: 80rem;
+    height: 10rem;
+  }
+.last{
+  justify-content: space-between; 
+    height: 3.5rem;
+    display: flex;
+    margin-top: 3rem;
+    margin-left: var(--margin-left);
+    margin-right: 12rem;
+    color: var(--color-secondary );
+}
+.last-nom{
+  display: flex;
+  gap: 2rem;
+}
+.last-lien{
+  display: flex;
+  gap: 3rem;
+}
+@media screen and (max-width: 430px){
+  html{
+    font-size: 5px;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  .nav-lien-2{
+    display: none;
+    
+  }
+  .nav-button{
+    display: none;
+  }
+  .nav-but{
+    display: block;
+    width: 9rem;
+    height: 9rem;
+  }
+  .section1{
+    flex-direction: column;
+  }
+  .section2{
+   gap: 9rem;
+    flex-direction: column-reverse;
+  }
+  .section2-note{
+    margin-right: 5rem;
+  }
+  .section3{
+    flex-direction: column;
+    gap: 9rem;
+  }
+  .section4{
+    padding: 1rem 4rem;
+    margin: 0;
+    width: 73rem;
+    
+  }
+  .section4-1{
+    display: none;
+  }
+  .section5{
+    flex-direction: column;
+  }
+  .section6{
+    border-radius: 0;
+    margin-left: 0;
+    width: 75rem;
+    font-size: 5px;
+
+  }
+  section{
+    width: 60rem;
+    margin-left: 10rem;
+  }
+  .section6-color{
+    width: 50rem;
+  }
+  .h3{
+    margin-left: 2rem;
+  }
+  .section1-note-lien{
+    
+    height: 9rem;
+    justify-content: center;
+  }
+  .lien1{
+    
+    width: 0.5rem;
+    height: 2rem;
+    
+  }
+  .lien2{
+   
+    width: 0.5rem;
+    height: 2rem;
+    
+  }
+  .lien3{
+    
+    width: 0.5rem;
+    height: 2rem;
+    
+  }
+  .lien4{
+    
+    width: 0.5rem;
+    height: 2rem;
+    
+  }
+}
